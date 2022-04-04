@@ -1,0 +1,158 @@
+body {
+  background-color: rgb(15, 15, 15) !important;
+  color: white !important;
+}
+
+hr {
+  margin-top: 0.5rem !important;
+margin-bottom: 0.5rem !important;
+  height: 2px !important;
+  color: rgb(104, 0, 114) !important;
+  opacity: 1 !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0 !important;
+}
+
+#profile {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#profile-picture {
+  max-width: 300px;
+  max-height: 300px;
+  margin-right: 25px;
+  margin-bottom: 1rem;
+}
+
+.timeline-info {
+    margin-top: 2rem;
+}
+
+#profile > div > h3 > i {
+    width: 35px;
+    color: white !important;
+}
+
+
+.carousel-item > img {
+    display: block;
+    max-height: 800px;
+    width: auto;
+    margin: auto;
+    z-index: 2;
+
+
+    opacity: 1;
+    transition: 0.5s;
+}
+/* 
+.carousel-item > img:hover {
+    opacity: 0.5;
+    display: none;
+   
+    transition: 0.5s;
+} */
+
+
+
+.container {
+    margin-bottom: 4rem;
+}
+
+div.descriere {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow: auto;
+    max-height: 14rem;
+
+}
+
+hr.timeline {
+    color: grey !important;
+}
+
+div.timeline-info > p {
+    margin-top: 0 !important;
+    margin-bottom: 2rem;
+}
+
+.bio-content {
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+li {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer > a {
+    text-decoration: none !important;
+    color: white !important;
+    margin: 0 5rem;
+}
+
+footer {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(104, 0, 114);
+    background-color: rgb(20, 20, 20);
+}
+
+li > i {
+    min-width: 2.5rem;
+}
+
+h4 > b {
+    font-weight: 550;
+}
+
+.overlay {
+    z-index: 1;
+    position: absolute;
+
+
+    opacity: 0;
+    font-size: larger;
+
+
+
+    top: 0;
+    bottom: 0;
+    display: flex;
+    /* margin: 0 auto; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 50%; */
+
+
+    /* top: 50%;  
+    left: 50%; 
+
+    transform: translate(-50%, -50%); 
+    pointer-events: none; */
+    transition: 0.5s;
+}
+
+
+.overlay:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/* 
+.logo {
+    max-width: 26rem;
+} */
