@@ -1,11 +1,11 @@
 body {
-  background-color: rgb(15, 15, 15) !important;
+  background-color: rgb(26, 26, 26) !important;
   color: white !important;
 }
 
 hr {
   margin-top: 0.5rem !important;
-margin-bottom: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
   height: 2px !important;
   color: rgb(104, 0, 114) !important;
   opacity: 1 !important;
@@ -52,15 +52,6 @@ h1,h2,h3,h4,h5,h6 {
     opacity: 1;
     transition: 0.5s;
 }
-/* 
-.carousel-item > img:hover {
-    opacity: 0.5;
-    display: none;
-   
-    transition: 0.5s;
-} */
-
-
 
 .container {
     margin-bottom: 4rem;
@@ -120,28 +111,14 @@ h4 > b {
 .overlay {
     z-index: 1;
     position: absolute;
-
-
     opacity: 0;
     font-size: larger;
-
-
-
     top: 0;
     bottom: 0;
     display: flex;
-    /* margin: 0 auto; */
     width: 100%;
     align-items: center;
     justify-content: center;
-    /* margin-left: 50%; */
-
-
-    /* top: 50%;  
-    left: 50%; 
-
-    transform: translate(-50%, -50%); 
-    pointer-events: none; */
     transition: 0.5s;
 }
 
@@ -151,8 +128,3 @@ h4 > b {
     opacity: 1;
     transition: 0.5s;
 }
-
-/* 
-.logo {
-    max-width: 26rem;
-} */
