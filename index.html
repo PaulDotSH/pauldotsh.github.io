@@ -1,161 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <link rel="stylesheet" href="main.css" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>CV Abrudan Paul-Andrei</title>
-      <!-- CSS only -->
-      <link
-         rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-         crossorigin="anonymous"
-         referrerpolicy="no-referrer"
-         />
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-      <!-- JavaScript Bundle with Popper -->
-   </head>
-   <body>
-      <!-- PROFILE -->
-      <div id="profile" class="container d-flex justify-content-center align-items-center">
-         <img id="profile-picture" src="./img/profile.png" class="img-fluid rounded-circle" alt="Profile picture" />
-         <div class="d-flex align-items-left flex-column">
-            <h3><i class="fa-solid fa-id-card"></i> Abrudan Paul - Andrei</h3>
-            <hr />
-            <h3><i class="fa-solid fa-graduation-cap"></i> UVT - FMI - IA</h3>
-            <hr />
-            <!-- <h3>paulandreiabrudan@protonmail.com</h3> -->
-            <h3><i class="fa-solid fa-school"></i> C.N. "Iosif Vulcan", Oradea</h3>
-         </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Abrudan Paul-Andrei</title>
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+  </head>
+  <body>
+    <!-- PROFILE -->
+    <div
+      id="profile"
+      class="container d-flex justify-content-center align-items-center"
+    >
+      <img
+        id="profile-picture"
+        src="./img/profile.png"
+        class="img-fluid rounded-circle"
+        alt="Profile picture"
+      />
+      <div class="d-flex align-items-left flex-column">
+        <h3><i class="fa-solid fa-id-card"></i> Abrudan Paul - Andrei</h3>
+        <hr />
+        <h3><i class="fa-solid fa-graduation-cap"></i> UVT - FMI - IA</h3>
+        <hr />
+        <!-- <h3>paulandreiabrudan@protonmail.com</h3> -->
+        <h3><i class="fa-solid fa-school"></i> C.N. "Iosif Vulcan", Oradea</h3>
       </div>
-      <div id="bio" class="container">
-         <!-- BIO -->
-         <hr />
-         <h2 class="text-center">BIO</h2>
-         <hr />
-         <h4 class="bio-content">
-            I'm currently a student at UVT (West University of Timisoara), which studied at the National College "Iosif Vulcan", from <b>Oradea</b>. I'm the original developer of "<b>Android Sideloader</b>", which has over <b>200.000</b> downloads just from
-            GitHub.
+    </div>
+    <div id="bio" class="container">
+      <!-- BIO -->
+      <hr />
+      <h2 class="text-center">BIO</h2>
+      <hr />
+      <h4 class="bio-content">
+        I'm currently a student at UVT (West University of Timisoara), which
+        studied at the National College "Iosif Vulcan", from <b>Oradea</b>. I'm
+        the original developer of "<b>Android Sideloader</b>", which has over
+        <b>200.000</b> downloads just from GitHub.
+        <br />
+        I'm also very passionate about programming and computers, I like to help
+        others, constructive criticism and learning new things. I took part in a
+        bunch of volunteering projects, working with <b>EduTV</b>,
+        <b>EduBiz</b>, <b>D.I.A.</b>, <b>ADLO</b>, <b>APPE</b>,
+        <b>RoMarketing</b> and <b>Impact</b>.
+        <br />
+        <br />
+        Currently learning - <b>Rust</b>, <b>Linux</b> and
+        <b>Reverse Engineering</b>
+        <br />
+        Want to learn in the future - <b>Pentesting</b>, <b>Javascript</b>,
+        <b>Node</b>, <b>Mongo</b>, <b>Typescript</b>, <b>React</b>, <b>Vue</b>,
+        <b>CSS</b> and <b>Bootstrap</b>
+      </h4>
+    </div>
+    <div class="container">
+      <!-- PROIECTE -->
+      <hr />
+      <h2 class="text-center">PROJECTS</h2>
+      <hr />
+      <br />
+      <div class="row">
+        <div class="col-md-8">
+          <!-- CARUSELU -->
+          <div
+            id="carousel1"
+            class="carousel slide"
+            data-bs-ride="carousel1"
+            data-interval="false"
+          >
+            <div class="overlay">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-book-open"></i> License:
+                  <a href="https://www.gnu.org/licenses/gpl-3.0.html"
+                    ><b>GNU GPL 3.0</b></a
+                  >
+                </li>
+                <li>
+                  <i class="fa-solid fa-code"></i> Source:
+                  <a href="https://github.com/nerdunit/androidsideloader"
+                    ><b>GitHub</b></a
+                  >
+                </li>
+                <li>
+                  <i class="fa-brands fa-windows"></i> Binaries:
+                  <a
+                    href="https://github.com/nerdunit/androidsideloader/releases"
+                    ><b>Windows</b></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carousel1"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel1"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel1"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel1"
+                data-bs-slide-to="3"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./img/sideloader/1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/sideloader/2.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/sideloader/3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/sideloader/4.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel1"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel1"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="descriere col">
+            <b>Android Sideloader</b> is a simple tool that lets users
+            <b>easily install</b> apps and games on their <b>android</b> device.
+            This project was developed with C#, uses ADB to communicate with the
+            device, and RCLONE to download the apps and games.
             <br />
-            I'm also very passionate about programming and computers, I like to help others, constructive criticism and learning new things. I took part in a bunch of volunteering projects, working with <b>EduTV</b>, <b>EduBiz</b>, <b>D.I.A.</b>, <b>ADLO</b>,
-            <b>APPE</b>, <b>RoMarketing</b> and <b>Impact</b>.
-            <br>
-            <br>
-            Currently learning - <b>C++</b>, <b>Linux</b> and <b>Reverse Engineering</b>
-            <br>
-            Want to learn in the future - <b>Pentesting</b>, <b>Javascript</b>, <b>Node</b>, <b>Mongo</b>, <b>Typescript</b>, <b>React</b>, <b>Vue</b>, <b>CSS</b> and <b>Bootstrap</b>
-         </h4>
+            Because android sideloader works with any android device, a lot of
+            people started using it with their Oculus Quest devices
+            <br />
+            Around the version 1.6, the code started to be too messy to work on
+            it in a timely manner and it was filled with bugs, because it was my
+            first project, the code was very bad and didn't follow good
+            programming practices. After the 2.0 update, I was too burnt out to
+            continue developing the project, I had to focus on exams, school and
+            preparing for uni, I wanted to recode the sideloader with better
+            code, from scratch, and making it cross-platform, but because of
+            Uni, I never had the time.
+          </div>
+        </div>
+        <!-- LOGO CHESTIE -->
+        <div class="col">
+          <img
+            class="logo img-fluid"
+            src="./img/sideloader/logo.png"
+            alt="logo"
+          />
+        </div>
       </div>
-      <div class="container">
-         <!-- PROIECTE -->
-         <hr />
-         <h2 class="text-center">PROJECTS</h2>
-         <hr />
-         <br />
-         <div class="row">
-            <div class="col-md-8">
-               <!-- CARUSELU -->
-               <div id="carousel1" class="carousel slide" data-bs-ride="carousel1" data-interval="false">
-                  <div class="overlay">
-                     <ul>
-                        <li><i class="fa-solid fa-book-open"></i> License: <a href="https://www.gnu.org/licenses/gpl-3.0.html"><b>GNU GPL 3.0</b></a></li>
-                        <li><i class="fa-solid fa-code"></i> Source: <a href="https://github.com/nerdunit/androidsideloader"><b>GitHub</b></a></li>
-                        <li><i class="fa-brands fa-windows"></i> Binaries: <a href="https://github.com/nerdunit/androidsideloader/releases"><b>Windows</b></a></li>
-                     </ul>
-                  </div>
-                  <div class="carousel-indicators">
-                     <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                     <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                     <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                     <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                     <div class="carousel-item active">
-                        <img src="./img/sideloader/1.png" class="d-block w-100" alt="..." />
-                     </div>
-                     <div class="carousel-item">
-                        <img src="./img/sideloader/2.png" class="d-block w-100" alt="..." />
-                     </div>
-                     <div class="carousel-item">
-                        <img src="./img/sideloader/3.jpg" class="d-block w-100" alt="..." />
-                     </div>
-                     <div class="carousel-item">
-                        <img src="./img/sideloader/4.png" class="d-block w-100" alt="..." />
-                     </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                  </button>
-               </div>
-               <div class="descriere col">
-                  <b>Android Sideloader</b> is a simple tool that lets users <b>easily install</b> apps and games on their <b>android</b> device.
-                  This project was developed with C#, uses ADB to communicate with the device, and RCLONE to download the apps and games.
-                  <br>
-                  Because android sideloader works with any android device, a lot of people started using it with their Oculus Quest devices
-                  <br>
-                  Around the version 1.6, the code started to be too messy to work on it in a timely manner and it was filled with bugs, because it was my first project, the code was very bad and didn't follow good programming practices.
-                  After the 2.0 update, I was too burnt out to continue developing the project, I had to focus on exams, school and preparing for uni, I wanted to recode the sideloader with better code, from scratch, and making it cross-platform, but because of Uni, I never had the time.
-               </div>
-            </div>
-            <!-- LOGO CHESTIE -->
-            <div class="col">
-               <img class="logo img-fluid" src="./img/sideloader/logo.png" alt="logo">
-            </div>
-         </div>
-         <br />
-         <!-- Aici vine proiectul urmator -->
-         <!-- Sa pui si cheat chestie -->
-         <div class="row">
-
-
-         </div>
-         <hr />
-         <h2 class="text-center">MY EXPERIENCE</h2>
-         <hr />
-         <div class="timeline-info">
-            <b>April 2022 - TBA</b>
-            <hr class="timeline">
-            <p>
-               <b>'go evil'</b> is my biggest project at the time of writing this, it is a bundle of malware-like software, that will be used by pentesters to show how easy it is to "hack" insecure devices, and what you can do with access to a device.
-               <br>At the moment it is very early in development, only having a working ransomware, but it will be updated with more features and more functionality.
-               <br>Currently I'm working on its backend which will be complex having features like graphs of "victims" the pentester infected, a builder, and more features on a web panel.
-               <br>Among the planned features are a stealer, a package for persistence and startup / hidden startup, which are more difficult to implement since this bundle is cross-platform between windows and linux platforms, and maybe Android, but that will be hard to do and will probably be done as the last feature.
-               <br>At the moment of writing this, the ransomware is FUD (fully undetected) by anti-malware software, this probably won't be the case in the future when it will get more popular.
-            </p>
-            <b>March 2020 - April 2021</b>
-            <hr class="timeline">
-            <p>
-               Android Sideloader was one of my biggest projects, it all started when I got an Oculus Quest. The Oculus Quest is an Android based VR headset, I wanted to make a platform similar to F-Droid, where any person or company could make its/their own "config", and serve apps and games for the headset.
-               <br> It started as just a simple exe file developers could share along with their app, but it got updated frequently, and every update added new features, like self-updating, installing an app with one click, downloading and installing games automatically, keeping track of the versions, showing games thumbnails and more.
-               <br> Since it was my first big project, it taught me a lot, but the code was very messy, and very quickly it became very hard to work on. I wanted to recode it from scratch, and make it cross-platform since I switched to Linux, but didn't have the time because of school, the national exam, and after that, Uni.
-            </p>
-            <b>2019 - 2020 | Volunteer, Video Editor | EduBiz Oradea</b>
-            <hr class="timeline">
-            <p>
-               Working with everyone at the EduBiz organisation was very fun, we helped each other grow and change into better people, all while helping others. I also helped edit a bunch of videos for EduTV and D.I.A., together with ADLO, APPE and RoMarketing
-            </p>
-            <b>Jun 2019 - Jul 2019 | Internship Accesa.eu</b>
-            <hr class="timeline">
-            <p>
-               Even though the internship at Accesa only lasted 2 weeks, it was a great experience where I learnt a lot about the general IT working environment. We were taught basic RPA, the scrum methodology and we did a bit of coding practice in C# and JavaScript.
-               <br>
-               We met a lot of awesome and kind people, which didn't hesitate to answer our questions.
-            </p>
-         </div>
+      <br />
+      <!-- Aici vine proiectul urmator -->
+      <!-- Sa pui si cheat chestie -->
+      <div class="row"></div>
+      <hr />
+      <h2 class="text-center">MY EXPERIENCE</h2>
+      <hr />
+      <div class="timeline-info">
+        <b>April 2022 - TBA</b>
+        <hr class="timeline" />
+        <p>
+          <b>'go evil'</b> is my biggest project at the time of writing this, it
+          is a bundle of malware-like software, that will be used by pentesters
+          to show how easy it is to "hack" insecure devices, and what you can do
+          with access to a device. <br />At the moment it is very early in
+          development, only having a working ransomware, but it will be updated
+          with more features and more functionality. <br />Currently I'm working
+          on its backend which will be complex having features like graphs of
+          "victims" the pentester infected, a builder, and more features on a
+          web panel. <br />Among the planned features are a stealer, a package
+          for persistence and startup / hidden startup, which are more difficult
+          to implement since this bundle is cross-platform between windows and
+          linux platforms, and maybe Android, but that will be hard to do and
+          will probably be done as the last feature. <br />At the moment of
+          writing this, the ransomware is FUD (fully undetected) by anti-malware
+          software, this probably won't be the case in the future when it will
+          get more popular. This project is at the moment on hold because of
+          other projects, uni and learning rust.
+        </p>
+        <b>March 2020 - April 2021</b>
+        <hr class="timeline" />
+        <p>
+          Android Sideloader was one of my biggest projects, it all started when
+          I got an Oculus Quest. The Oculus Quest is an Android based VR
+          headset, I wanted to make a platform similar to F-Droid, where any
+          person or company could make its/their own "config", and serve apps
+          and games for the headset.
+          <br />
+          It started as just a simple exe file developers could share along with
+          their app, but it got updated frequently, and every update added new
+          features, like self-updating, installing an app with one click,
+          downloading and installing games automatically, keeping track of the
+          versions, showing games thumbnails and more. <br />
+          Since it was my first big project, it taught me a lot, but the code
+          was very messy, and very quickly it became very hard to work on. I
+          wanted to recode it from scratch, and make it cross-platform since I
+          switched to Linux, but didn't have the time because of school, the
+          national exam, and after that, Uni.
+        </p>
+        <b>2019 - 2020 | Volunteer, Video Editor | EduBiz Oradea</b>
+        <hr class="timeline" />
+        <p>
+          Working with everyone at the EduBiz organisation was very fun, we
+          helped each other grow and change into better people, all while
+          helping others. I also helped edit a bunch of videos for EduTV and
+          D.I.A., together with ADLO, APPE and RoMarketing
+        </p>
+        <b>Jun 2019 - Jul 2019 | Internship Accesa.eu</b>
+        <hr class="timeline" />
+        <p>
+          Even though the internship at Accesa only lasted 2 weeks, it was a
+          great experience where I learnt a lot about the general IT working
+          environment. We were taught basic RPA, the scrum methodology and we
+          did a bit of coding practice in C# and JavaScript.
+          <br />
+          We met a lot of awesome and kind people, which didn't hesitate to
+          answer our questions.
+        </p>
       </div>
-      <footer>
-         <a target="_blank" href="https://github.com/PaulDotSH"><i class="fa-brands fa-github"></i> GitHub</a>
-         <a href="mailto:paulandreiabrudan@protonmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
-         <!-- <a href="">nush</a> -->
-      </footer>
-      <!-- JavaScript Bundle with Popper -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-   </body>
+    </div>
+    <footer>
+      <a target="_blank" href="https://github.com/PaulDotSH"
+        ><i class="fa-brands fa-github"></i> GitHub</a
+      >
+      <a href="mailto:paulandreiabrudan@protonmail.com"
+        ><i class="fa-solid fa-envelope"></i> Email</a
+      >
+      <!-- <a href="">nush</a> -->
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
